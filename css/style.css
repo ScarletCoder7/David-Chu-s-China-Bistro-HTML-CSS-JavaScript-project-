@@ -73,7 +73,7 @@ body{
     border: 1px solid #61122f; /*brown*/
 }
 .navbar-header button.navbar-toggle{
-    clear:both; /*So that the entire navbar part fits within the navbr box which depends upon the navbar-toggle*/
+    clear:both; 
     margin-top: -30px; /* Reducing the size of navbar portion*/
 }
 
@@ -173,7 +173,7 @@ body{
 .category-tile:hover{
     box-shadow: 0 1px 5px 1px #cccccc; /*dull white*/
 }
-#menu-categories-title + div{  /* next div sibling to id="menu-categories-title"*/ 
+#menu-categories-title + div{  
     margin-bottom:50px;
 }
 /*End of Menu category page*/
@@ -202,7 +202,7 @@ body{
     margin-right:-15px;
     margin-left: auto;
     margin-bottom: 20px;
-    max-width:250px;    /*maximum width similar to the width of the img tag in single-category page class=".menu-item-photo. So that the image doesn't exceeds this Width. */ 
+    max-width:250px;    
 }
 .menu-item-photo div{
     position: absolute;
@@ -265,7 +265,7 @@ h3.menu-item-title{
     }
     .navbar-brand h1{  /*Restaurant Name*/
         padding-top:10px;   /*decreasing the padding*/
-        font-size:5vw;  /* 1% of viewport width*/ /* vw is responsive */
+        font-size:5vw;  
     }
     .navbar-brand p{  /* Kosher Certification*/
         font-size:.6em;
@@ -278,7 +278,7 @@ h3.menu-item-title{
         font-size:1.2em; /* previous body font-size: 16px * 1.2 */
     }
     #collapsable-nav a span{    /*collapsable-nav glyphicon */
-        font-size: 1em; /* size of glyphicon will be that of the parent font size that is it will not change */
+        font-size: 1em; 
     }
     #call-btn > a{
         font-size: 1.5em;
@@ -311,7 +311,7 @@ h3.menu-item-title{
     /*End Of Footer*/
     
     
-    .container .jumbotron{ /*Where we need to spacify parent .container class so as to override the .jumbotron class otherwise padding won't run properly*/
+    .container .jumbotron{ 
         margin-top:30px;
         padding: 0;
     }
